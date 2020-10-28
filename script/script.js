@@ -66,15 +66,6 @@ for (i = 1; i < 5; i++) {
     }
   };
 }
-//ako kliknemo na odgovor
-//ako igramo
-//tacno
-//da
-//povecava score
-//pokazuje tacno div na 1 sec
-//pravi nova pitanja
-//ne
-//pokusaj ponovo div na 1 sec
 
 //funkcije
 
