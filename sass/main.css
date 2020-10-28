@@ -1,0 +1,189 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Grandstander", cursive;
+  font-weight: 500;
+}
+
+html {
+  height: 100%;
+  background: radial-gradient(circle, #fff, #ccc);
+}
+
+#box {
+  position: relative;
+  height: 565px;
+  width: 680px;
+  background-color: #6930c3;
+  margin: 250px auto;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 5px 10px 1px #3e1b76;
+  box-shadow: 0px 5px 10px 1px #3e1b76;
+}
+
+#box__score {
+  left: 550px;
+  position: absolute;
+  color: #6c757d;
+  background-color: #ffff3f;
+  padding: 15px;
+  -webkit-box-shadow: 0px 5px 10px 1px #a3af37;
+  box-shadow: 0px 5px 10px 1px #a3af37;
+  border-radius: 3px;
+}
+
+#box__score--correct {
+  position: absolute;
+  left: 290px;
+  background-color: #007f5f;
+  padding: 15px;
+  color: #fff;
+  font-weight: 800;
+  display: none;
+  text-transform: uppercase;
+}
+
+#box__score--wrong {
+  position: absolute;
+  left: 290px;
+  color: #fff;
+  background-color: #d90429;
+  padding: 15px;
+  font-weight: 800;
+  display: none;
+  text-transform: uppercase;
+}
+
+#box__question {
+  width: 500px;
+  height: 200px;
+  background-color: wheat;
+  margin: 65px auto 10px auto;
+  -webkit-box-shadow: 0px 5px 10px 1px #a3af37;
+  box-shadow: 0px 5px 10px 1px #3e1b76;
+  text-align: center;
+  font-size: 180px;
+  padding-bottom: 5px;
+}
+
+#box__instruction {
+  color: #420134;
+  text-transform: uppercase;
+  border: solid;
+  padding: 5px;
+  font-size: 35px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #ba2392;
+  -webkit-box-shadow: 0px 5px 10px 1px #77195e;
+  box-shadow: 0px 5px 10px 1px #77195e;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+
+#box__choices {
+  height: 130px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+#box__choices--box1, #box__choices--box2, #box__choices--box3, #box__choices--box4 {
+  font-size: 60px;
+  background-color: #e4c5fa;
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 53px;
+  -webkit-box-shadow: #6c757d;
+          box-shadow: #6c757d;
+  border-radius: 3px;
+  text-align: center;
+  padding: 25px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+#box__choices--box1:hover, #box__choices--box2:hover, #box__choices--box3:hover, #box__choices--box4:hover {
+  color: wheat;
+  -webkit-box-shadow: 0px 5px 10px 1px #3e1b76;
+  box-shadow: 0px 5px 10px 1px #3e1b76;
+  background-color: #b874e8;
+  cursor: pointer;
+}
+
+#box__choices--box1:active, #box__choices--box2:active, #box__choices--box3:active, #box__choices--box4:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  top: 3px;
+}
+
+#box__choices--box1:last-child, #box__choices--box2:last-child, #box__choices--box3:last-child, #box__choices--box4:last-child {
+  margin-right: 0px;
+}
+
+#box__start-reset {
+  margin-left: 200px;
+  margin-top: 15px;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 30px;
+  background-color: #b874e8;
+  -webkit-box-shadow: #6c757d;
+          box-shadow: #6c757d;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+#box__start-reset:hover {
+  color: wheat;
+  -webkit-box-shadow: 0px 5px 10px 1px #3e1b76;
+  box-shadow: 0px 5px 10px 1px #3e1b76;
+  background-color: #4b27e9;
+  cursor: pointer;
+}
+
+#box__start-reset:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  top: 3px;
+}
+
+#box__time-remaining {
+  text-align: center;
+  width: 220px;
+  padding: 5px;
+  position: absolute;
+  top: 515px;
+  left: 440px;
+  background-color: #60f0a5;
+  -webkit-box-shadow: 0px 5px 10px 1px #60f0a5;
+  box-shadow: 0px 5px 10px 1px #60f0a5;
+  border-radius: 3px;
+  border: #60f0a5;
+  display: none;
+}
+
+#box__game-over {
+  height: 200px;
+  width: 500px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fabd50), to(#e09612));
+  background: linear-gradient(#fabd50, #e09612);
+  text-transform: uppercase;
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  position: absolute;
+  top: 85px;
+  left: 90px;
+  z-index: 2;
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

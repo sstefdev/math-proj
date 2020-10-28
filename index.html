@@ -15,12 +15,24 @@
   </head>
   <body>
     <div id="box">
-      <div id="box__score">SCORE: 0</div>
-      <div id="box__score--correct">Correct</div>
-      <div id="box__score--wrong">Try Again</div>
-      <div id="box__question"><div class="box__question--1">7x9</div></div>
-      <div id="box__instruction">Click the correct answer</div>
+      <div id="box__score">REZULTAT: <span id="score-value">0</span></div>
+      <div id="box__score--correct">Tacno</div>
+      <div id="box__score--wrong">Pokusaj ponovo</div>
+      <div id="box__question"></div>
+      <div id="box__instruction">Odaberi tacan odgovor bre</div>
+      <div id="box__choices">
+        <div id="box__choices--box1" class="box"></div>
+        <div id="box__choices--box2" class="box"></div>
+        <div id="box__choices--box3" class="box"></div>
+        <div id="box__choices--box4" class="box"></div>
+      </div>
+      <div id="box__start-reset">Pocni igru</div>
+      <div id="box__time-remaining">
+        Preostalo vreme: <span id="time-remaining-value">60</span> sek
+      </div>
+      <div id="box__game-over"></div>
     </div>
+
+    <script src="/script/script.js"></script>
   </body>
-  <script src="/script/script.js"></script>
 </html>
